@@ -12,9 +12,9 @@ public class LoginApplication extends Application {
 
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
 
-        Scene scene = new Scene(root, 870,550);
+        Scene scene = new Scene(root);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Login Page");
+         primaryStage.setTitle("Login Page");
         primaryStage.setResizable(false);
         primaryStage.show();
     }
